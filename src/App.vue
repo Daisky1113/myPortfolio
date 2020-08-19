@@ -23,15 +23,4 @@ export default {
 };
 </script>
 
-<style>
-.main {
-    margin-top: 56px;
-    text-align: center;
-}
-
-@media screen and (min-width: 960px) {
-    .main {
-        margin-top: 64px;
-    }
-}
-</style>
+<style lang="scss"></style>
