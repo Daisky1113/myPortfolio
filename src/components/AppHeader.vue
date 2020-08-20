@@ -1,15 +1,15 @@
 <template>
-    <v-app-bar color="blue-grey darken-4 accent-4" dark fixed flat>
+    <v-app-bar color="white accent-4" fixed>
         <v-row justify="center" no-gutters>
             <v-btn
                 v-for="(link, index) in links"
                 :key="index"
-                color="white"
-                text
+                color="grey darken-4"
                 rounded
-                x-large
+                text
+                dark
                 style="text-transform: none"
-                class="px-4"
+                class="px-1"
                 :href="link.target"
                 v-smooth-scroll="{ duration: 700, offset: -64 }"
             >
