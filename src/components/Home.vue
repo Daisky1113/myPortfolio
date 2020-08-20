@@ -1,9 +1,9 @@
 <template>
-    <div class="Home">
+    <div class="home">
         <HomeHero />
-        <HomeWork />
-        <HomeSkills />
-        <HomeAbout />
+        <HomeWork class="section" />
+        <HomeSkills class="section" />
+        <HomeAbout class="section" />
         <HomeContact />
     </div>
 </template>
@@ -26,4 +26,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.section {
+    padding: 40px 0;
+}
+
+@media screen and (min-width: 961px) {
+    .section {
+        padding: 80px 0;
+    }
+}
+</style>
